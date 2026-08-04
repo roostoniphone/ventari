@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tummyly — Support</title>
+<meta name="description" content="Support and help for Tummyly, the private gut-symptom and food pattern tracker.">
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --ink:#12151a; --muted:#5b6470;
+    --line:#e6e9ee; --brand:#1f9bd6; --brand2:#2f6bd8; --accent:#e8f4fb;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#0f1216; --card:#171b21; --ink:#eef1f5; --muted:#9aa4b1;
+      --line:#262c34; --brand:#4bb6e8; --brand2:#6f97ee; --accent:#132532; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);color:var(--ink);-webkit-font-smoothing:antialiased}
+  .wrap{max-width:680px;margin:0 auto;padding:32px 20px 64px}
+  header{display:flex;align-items:center;gap:14px;margin:24px 0 8px}
+  .mark{width:54px;height:54px;border-radius:13px;flex:none;
+    background:linear-gradient(150deg,var(--brand),var(--brand2));
+    display:flex;align-items:center;justify-content:center}
+  .mark svg{width:34px;height:34px}
+  h1{font-size:30px;margin:0;letter-spacing:-.02em}
+  .tag{color:var(--muted);margin:2px 0 0}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;
+    padding:22px 24px;margin:22px 0}
+  h2{font-size:19px;margin:0 0 10px;letter-spacing:-.01em}
+  p{margin:0 0 12px;color:var(--ink)}
+  .muted{color:var(--muted)}
+  a{color:var(--brand);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .btn{display:inline-block;background:linear-gradient(150deg,var(--brand),var(--brand2));
+    color:#fff;padding:11px 18px;border-radius:11px;font-weight:600;margin-top:4px}
+  .btn:hover{text-decoration:none;filter:brightness(1.05)}
+  ul{margin:0 0 4px;padding-left:20px}
+  li{margin:6px 0}
+  .email{font-weight:600}
+  footer{color:var(--muted);font-size:14px;margin-top:28px;text-align:center}
+  footer a{color:var(--muted);text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="mark" aria-hidden="true">
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="50" cy="30" r="15" fill="#fff"/>
+        <path d="M20 78c0-17 13-28 30-28s30 11 30 28" fill="#fff"/>
+        <path d="M30 64c6-7 11 3 17-3s10-9 18-2" stroke="#2f6bd8" stroke-width="4.5"
+          stroke-linecap="round" fill="none"/>
+      </svg>
+    </div>
+    <div>
+      <h1>Tummyly</h1>
+      <p class="tag">Track gut symptoms, spot patterns, talk to your doctor.</p>
+    </div>
+  </header>
+
+  <div class="card">
+    <h2>Support</h2>
+    <p>Questions, feedback, or a bug to report? We'd genuinely like to hear it —
+       reach us by email and we'll reply.</p>
+    <p><a class="btn" href="mailto:roostoniphone@gmail.com?subject=Tummyly%20support">Email support</a></p>
+    <p class="muted" style="margin-top:14px">Or write to
+       <a class="email" href="mailto:roostoniphone@gmail.com">roostoniphone@gmail.com</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Common questions</h2>
+    <p><strong>Where is my data stored?</strong><br>
+       On your device, and — if you leave iCloud sync on — in your own private iCloud
+       account. There's no Tummyly account and no server; we never see your data.</p>
+    <p><strong>Does it work with Apple Health?</strong><br>
+       Optionally, yes. If you connect Health, Tummyly <em>reads</em> data like sleep and
+       activity to add context. It never writes to or changes your Health data.</p>
+    <p><strong>Is this medical advice?</strong><br>
+       No. Tummyly highlights patterns that may be worth discussing with a clinician —
+       never a diagnosis. If your symptoms are severe, persistent, or worsening, please
+       seek medical care.</p>
+    <p><strong>How do I remove my data?</strong><br>
+       Delete the app to remove on-device data. To also remove synced data, delete
+       Tummyly's data from your iCloud storage in iOS Settings.</p>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p>Tummyly is private by design: no account, no analytics, no ads, and nothing sold
+       or shared.</p>
+    <p><a href="privacy.html">Read the full privacy policy →</a></p>
+  </div>
+
+  <footer>
+    © 2026 Tummyly · <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</div>
+</body>
+</html>

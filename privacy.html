@@ -88,8 +88,9 @@
   <p>Health data read by the app is used solely on your device to display and analyse your
      own trends. It is <strong>never</strong> used for advertising or marketing,
      <strong>never</strong> sold, and <strong>never</strong> shared with third parties or
-     disclosed to us. If iCloud sync is on, a daily summary of this context may be stored
-     in your own private iCloud database alongside your other entries. You can revoke the
+     disclosed to us. Data read from Apple Health is kept <strong>only on your device</strong>.
+     It is never copied to iCloud, even when iCloud sync is on; on a new device, the app
+     reads it from Apple Health again. You can revoke the
      app's Health access at any time in iOS <strong>Settings → Privacy &amp; Security →
      Health</strong>.</p>
 
@@ -119,8 +120,11 @@
     <li><strong>Turn off iCloud sync</strong> in Settings to keep data on-device only.</li>
     <li><strong>Revoke Apple Health access</strong> in iOS Settings → Privacy &amp; Security → Health.</li>
     <li><strong>Turn off reminders</strong> in the app or iOS Settings.</li>
-    <li><strong>Delete your data</strong> by deleting the app (removes on-device data). To
-        also remove synced data, delete Ventari's data from your iCloud storage in iOS Settings.</li>
+    <li><strong>Lock the app</strong> with Face ID and/or a 4-digit PIN in Settings → Privacy.
+        The PIN is stored only as a one-way hash in your device's Keychain.</li>
+    <li><strong>Delete your data</strong> in Settings → Delete all my data. This erases
+        everything you have recorded (and, if iCloud sync is on, the synced copy too).
+        Deleting the app also removes on-device data.</li>
   </ul>
 
   <h2>Children</h2>
